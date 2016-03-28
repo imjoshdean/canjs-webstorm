@@ -1,0 +1,40 @@
+<templateSet group="CanJS Stache Templates">
+    <template 
+            name="stache-each" 
+            value="{{#each $KEY$}}&#10;&#9;&#10;{{/each}}" 
+            description="Stache {{#each}} tag" >
+        <variable name="KEY" expression="" defaultValue="key" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template 
+            name="stache-if" 
+            value="{{#if $KEY$}}&#10;&#9;&#10;{{else}}&#10;&#9;&#10;{{/if}}" 
+            description="Stache {{#if}} tag">
+        <variable name="KEY" expression="" defaultValue="key" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+</templateSet>
