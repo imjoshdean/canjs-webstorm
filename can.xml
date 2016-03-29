@@ -1,2 +1,150 @@
 <templateSet group="CanJS">
+    <template 
+            name="can-component" 
+            value="can.Component.extend({ &#10;&#9;tag: '$TAG$',&#10;&#9;template: '$TEMPLATE$',&#10;&#9;viewModel: {},&#10;&#9;helpers: {},&#10;&#9;events: {&#10;&#9;&#9;inserted: function(el, ev) {&#10;&#10;&#9;&#9;},&#10;&#9;&#9;removed: function(el, ev) {&#10;&#10;&#9;&#9;}&#10;&#9;}&#10;});" 
+            description="Generate a new component">
+        <variable name="TAG" expression="" defaultValue="&quot;example-component&quot;" alwaysStopAt="true" />
+        <variable name="TEMPLATE" expression="" defaultValue="&quot;&lt;h1&gt;Hello world!&lt;/h1&gt;&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template 
+            name="can-construct" 
+            value="can.Construct.extend({ &#10;&#9;&#10;}, {&#10;&#9;&#10;});" 
+            description="Extend can.Construct">
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template 
+            name="can-control" 
+            value="can.Control.extend({&#10;&#9;defaults: {&#10;&#10;&#9;}&#10;}, {&#10;&#9;init: function(el, options) {&#10;&#10;&#9;}&#10;});" 
+            description="Extend can.Control">
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template 
+            name="can-define" 
+            value="define: {&#10;&#9;name: {&#10;&#9;&#9;type: 'string',&#10;&#9;&#9;value: 'example'&#10;&#9;}&#10;}" 
+            description="Implement define attribute for observable objects">
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template 
+            name="can-define" 
+            value="define: {&#10;&#9;name: {&#10;&#9;&#9;type: 'string',&#10;&#9;&#9;value: 'example'&#10;&#9;}&#10;}" 
+            description="Implement define attribute for observable objects">
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template 
+            name="can-list" 
+            value="can.List.extend({ &#10;&#9;map: $MAP$&#10;}, {&#10;&#9;&#10;});" 
+            description="Extend can.List">
+        <variable name="MAP" expression="" defaultValue="&quot;can.Map&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template 
+            name="can-map" 
+            value="can.Map.extend({ &#10;}, {&#10;&#9;&#10;});" 
+            description="Extend can.Map">
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template 
+            name="can-model" 
+            value="can.Model.extend({&#10;&#9;findAll: 'GET /$EXAMPLE$',&#10;&#9;findOne: 'GET /$EXAMPLE$/{id}',&#10;&#9;create: 'POST /$EXAMPLE$',&#10;&#9;update: 'PUT /$EXAMPLE$',&#10;&#9;destroy: 'DELETE /$EXAMPLE$'&#10;}, {&#10;&#9;&#10;});" 
+            description="Extend can.Model">
+        <variable name="EXAMPLE" expression="" defaultValue="&quot;example&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
 </templateSet>
