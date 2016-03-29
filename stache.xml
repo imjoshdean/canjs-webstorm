@@ -3,8 +3,8 @@
             name="stache-block-helper" 
             value="{{#$KEY$ $ARGS$}}&#10;&#9;&#10;{{/$KEY$}}" 
             description="Stache {{#helper}} tag">
-        <variable name="KEY" expression="" defaultValue="key" alwaysStopAt="true" />
-        <variable name="ARGS" expression="" defaultValue="args" alwaysStopAt="true" />
+        <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
+        <variable name="ARGS" expression="" defaultValue="&quot;args&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true" />
             <option name="HTML" value="true" />
@@ -23,7 +23,7 @@
             name="stache-block" 
             value="{{#$KEY$}}&#10;&#9;&#10;{{/$KEY$}}" 
             description="Stache {{#block}} tag">
-        <variable name="KEY" expression="" defaultValue="key" alwaysStopAt="true" />
+        <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true" />
             <option name="HTML" value="true" />
@@ -42,8 +42,8 @@
             name="stache-helper" 
             value="{{$KEY$ $ARGS$}}" 
             description="Stache {{helper}} tag">
-        <variable name="KEY" expression="" defaultValue="key" alwaysStopAt="true" />
-        <variable name="ARGS" expression="" defaultValue="args" alwaysStopAt="true" />
+        <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
+        <variable name="ARGS" expression="" defaultValue="&quot;args&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true" />
             <option name="HTML" value="true" />
@@ -62,7 +62,7 @@
             name="stache-if" 
             value="{{#if $KEY$}}&#10;&#9;&#10;{{else}}&#10;&#9;&#10;{{/if}}" 
             description="Stache {{#if}} tag">
-        <variable name="KEY" expression="" defaultValue="key" alwaysStopAt="true" />
+        <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true" />
             <option name="HTML" value="true" />
@@ -81,8 +81,8 @@
             name="stache-is" 
             value="{{#is $EXPR1$ $EXPR2$}}&#10;&#9;&#10;{{else}}&#10;&#9;&#10;{{/is}}" 
             description="Stache {{#is}} tag">
-        <variable name="EXPR1" expression="" defaultValue="expr1" alwaysStopAt="true" />
-        <variable name="EXPR2" expression="" defaultValue="expr2" alwaysStopAt="true" />
+        <variable name="EXPR1" expression="" defaultValue="&quot;expr1&quot;" alwaysStopAt="true" />
+        <variable name="EXPR2" expression="" defaultValue="&quot;expr2&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true" />
             <option name="HTML" value="true" />
@@ -101,8 +101,8 @@
             name="stache-switch" 
             value="{{#switch $EXPR1$}}&#10;&#9;&#10;&#9;{{#case $EXPR2$}}&#10;&#9;&#10;&#9;{{/case}}&#10;&#9;&#10;&#9;{{#default}}&#10;&#9;&#10;&#9;{{/default}}&#10;{{/switch}}" 
             description="Stache {{#switch}} tag">
-        <variable name="EXPR1" expression="" defaultValue="expr1" alwaysStopAt="true" />
-        <variable name="EXPR2" expression="" defaultValue="expr2" alwaysStopAt="true" />
+        <variable name="EXPR1" expression="" defaultValue="&quot;expr1&quot;" alwaysStopAt="true" />
+        <variable name="EXPR2" expression="" defaultValue="&quot;expr2&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true" />
             <option name="HTML" value="true" />
@@ -121,7 +121,7 @@
             name="stache-unless" 
             value="{{#unless $KEY$}}&#10;&#9;&#10;{{else}}&#10;&#9;&#10;{{/unless}}" 
             description="Stache {{#unless}} tag">
-        <variable name="KEY" expression="" defaultValue="key" alwaysStopAt="true" />
+        <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true" />
             <option name="HTML" value="true" />
@@ -140,7 +140,7 @@
             name="stache-with" 
             value="{{#with $KEY$}}&#10;&#9;&#10;{{else}}&#10;&#9;&#10;{{/with}}" 
             description="Stache {{#unless}} tag">
-        <variable name="KEY" expression="" defaultValue="key" alwaysStopAt="true" />
+        <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true" />
             <option name="HTML" value="true" />
@@ -159,7 +159,7 @@
             name="stache-each" 
             value="{{#each $KEY$}}&#10;&#9;&#10;{{/each}}" 
             description="Stache {{#each}} tag" >
-        <variable name="KEY" expression="" defaultValue="key" alwaysStopAt="true" />
+        <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true" />
             <option name="HTML" value="true" />
