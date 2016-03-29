@@ -20,5 +20,7 @@ Make sure to restart WebStorm in order for them to be used.
 ## Using Live Templates
 
 Using live templates is simple. In OS X, just type `⌘ + J` in order to bring up
-live templates. All templates start with either `can-` or `stache-`, depending
+live templates. In Windowsa and Linux, type `Ctrl + J`.
+
+All templates start with either `can-` or `stache-`, depending
 on whether or not you are in a JavaScript or Stache template file, respectively.
